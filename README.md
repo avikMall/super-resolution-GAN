@@ -16,6 +16,8 @@ Images after 120:
 ![120_epochs_1](images/120_epochs.png)
 ![120_epochs_2](images/120_epochs_2.png)
 
+Further training times are limited due to compute constraints, but the improvement is noticable and higher quality images are being produced. 
+
 # Explanation and Methodology
 
 Preprocessing for this model starts by defining a PyTorch dataset and data loaders, where LR and HR image pairs are generated. The dataset randomly crops HR images, converts them to tensors, and downscales them to create corresponding LR images using bicubic interpolation. Data loaders are then created to provide these LR-HR pairs in batches for training and validation. 
