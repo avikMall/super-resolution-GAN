@@ -6,7 +6,15 @@ The dataset used to train this model is the Div2K High Resolution Images dataset
 
 # Current results
 
-tbd
+Images after 20 epochs:
+
+![20 epochs 1](images/20_epochs_2.png)
+![20_epochs_2](images/20_epochs.png)
+
+Images after 120:
+
+![120_epochs_1](images/120_epochs.png)
+![120_epochs_2](images/120_epochs_2.png)
 
 # Explanation and Methodology
 
